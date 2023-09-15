@@ -1,0 +1,189 @@
+/* xs */
+/* @media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+} */
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  header {
+    padding: 2em;
+  }
+
+  .hero-section {
+    padding: 2em;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    padding: 0 4em;
+  }
+
+  .hero-button {
+    width: 50%;
+  }
+  .stats {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .stats-icon {
+    margin-left: 4em;
+  }
+  section h3 {
+    font-size: 2.5rem;
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+  }
+  section p {
+    font-size: 1rem;
+    padding: 0 2em;
+  }
+
+  .get-started-button {
+    width: 50%;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero-button {
+    width: 35%;
+  }
+  .content-wrapper {
+    flex-direction: row-reverse;
+    gap: 2em;
+  }
+  .content-wrapper:nth-child(1) {
+    flex-direction: row;
+  }
+
+  .bg-top-mobile,
+  .bg-top-mobile-2,
+  .bg-bottom-mobile,
+  .bg-bottom-mobile-2 {
+    display: none;
+  }
+
+  section h3 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  .get-started-button {
+    width: 35%;
+  }
+
+  footer {
+    flex-direction: row;
+    gap: 2em;
+  }
+  .footer-logo {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  .header-button {
+    padding: 1em 3em;
+    font-size: 0.8rem;
+  }
+
+  .hero-button {
+    width: 20%;
+    padding: 2em;
+  }
+  .hero-banner img {
+    margin-inline: auto;
+  }
+  .hero-section p {
+    padding: 0 15em;
+  }
+  .stats-icon {
+    margin-left: 12em;
+  }
+  .get-started-button {
+    width: 20%;
+    padding: 2em;
+  }
+
+  .stats-icon {
+    width: 10%;
+  }
+
+  .footer-logo {
+    margin: 0.5em;
+  }
+  footer h3 {
+    font-size: 2.5rem;
+  }
+
+  .footer-right p,
+  .footer-left p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  input {
+    width: 50%;
+  }
+
+  .email-submit {
+    border-radius: 0;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-top: 1em;
+  }
+  .hero-section {
+    padding: 0 10em;
+  }
+
+  .content-wrapper h3 {
+    font-size: 3rem;
+  }
+  .content-wrapper p {
+    padding: 0 10em;
+    font-size: 1.3rem;
+  }
+}
